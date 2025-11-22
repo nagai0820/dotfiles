@@ -1,0 +1,17 @@
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# エディタ
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
+*.bak
