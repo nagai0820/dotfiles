@@ -28,36 +28,6 @@
   "terminal.integrated.scrollback": 10000,
 
   // ========================================
-  // Vim拡張機能設定
-  // ========================================
-  // Vimモードを有効化（vim拡張がインストールされている場合）
-  "vim.useSystemClipboard": true,
-  "vim.hlsearch": true,
-  "vim.incsearch": true,
-  "vim.ignorecase": true,
-  "vim.smartcase": true,
-
-  // jjでEscapeモード
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-
-  // ビジュアル行移動
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["j"],
-      "after": ["g", "j"]
-    },
-    {
-      "before": ["k"],
-      "after": ["g", "k"]
-    }
-  ],
-
-  // ========================================
   // エディタ設定
   // ========================================
   "editor.fontSize": 14,
